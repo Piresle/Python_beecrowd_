@@ -54,5 +54,4 @@ cod1, qtde1, valor1 = p1
 cod2, qtde2, valor2 = p2
 total = (int(qtde1) * float(valor1)) + (int(qtde2) * float(valor2))
 print(f'VALOR A PAGAR: R$ {total:.2f}')          
-
 # ----------------------------------------------------------------------------------------------------------------
