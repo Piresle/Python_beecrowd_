@@ -8,6 +8,7 @@ vol = (4/3.0) * pi * (R)**3
 print(f'VOLUME = {vol:.3f}')
 # ----------------------------------------------------------------------------------------------------------------
 
+print('-'*30)
 print('1012 - Área')
 # Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
 # a) a área do triângulo retângulo que tem A por base e C por altura.
@@ -48,6 +49,7 @@ print(f'RETANGULO: {aret:.3f}')
 
 # ----------------------------------------------------------------------------------------------------------------
 
+print('-'*30)
 print('1013 - O Maior')
 # Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula: MaiorAB = (a+b+abs(a-b)) / 2
 # Obs.: a fórmula apenas calcula o maior entre os dois primeiros (a e b). Um segundo passo, portanto é necessário para chegar no resultado esperado.
@@ -55,6 +57,7 @@ print('1013 - O Maior')
 
 # ----------------------------------------------------------------------------------------------------------------
 
+print('-'*30)
 print('1014 - Consumo')
 # Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
 
@@ -64,6 +67,7 @@ cons = X / Y
 print(f'{cons:.3f}km/l')
 # ----------------------------------------------------------------------------------------------------------------
 
+print('-'*30)
 print('1015 - Distância Entre Dois Pontos')
 # Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula: 
 # Distancia = raiz(x2-x1)² + (y2-y1)²
@@ -72,4 +76,42 @@ x1, y1 = map(float, input().split())
 x2, y2 = map(float, input().split())
 distancia = (((x2 - x1)**2) + ((y2 - y1)**2))**0.5
 print(f'{distancia:.4f}')
+# ----------------------------------------------------------------------------------------------------------------
+
+print('-'*30)
+print('1016 - Distância')
+# Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade constante de 60 Km/h e o carro Y sai com velocidade constante de 90 Km/h.
+# Em uma hora (60 minutos) o carro Y consegue se distanciar 30 quilômetros do carro X, ou seja, consegue se afastar um quilômetro a cada 2 minutos.
+# Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o carro Y tomar essa distância do outro carro.
+
+
+# ----------------------------------------------------------------------------------------------------------------
+
+print('-'*30)
+print('1017 - Gasto de Combustível')
+# Joaozinho quer calcular e mostrar a quantidade de litros de combustível gastos em uma viagem, ao utilizar um automóvel que faz 12 KM/L. Para isso, ele gostaria que você o auxiliasse através de um simples programa. Para efetuar o cálculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade média durante a mesma (em km/h). Assim, pode-se obter distância percorrida e, em seguida, calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais após o ponto.
+
+
+# ----------------------------------------------------------------------------------------------------------------
+
+print('-'*30)
+print('1018 - Cédulas')
+# Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a relação de notas necessárias.
+
+
+# ----------------------------------------------------------------------------------------------------------------
+
+print('-'*30)
+print('1019 - Conversão de Tempo')
+# Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos.
+
+
+# ----------------------------------------------------------------------------------------------------------------
+
+print('-'*30)
+print('1020 - Idade em Dias')
+# Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a em anos, meses e dias
+# Obs.: apenas para facilitar o cálculo, considere todo ano com 365 dias e todo mês com 30 dias. Nos casos de teste nunca haverá uma situação que permite 12 meses e alguns dias, como 360, 363 ou 364. Este é apenas um exercício com objetivo de testar raciocínio matemático simples.
+
+
 # ----------------------------------------------------------------------------------------------------------------
