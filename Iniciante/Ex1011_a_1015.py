@@ -29,7 +29,7 @@ print("QUADRADO: %.3f"%square)
 print("RETANGULO: %.3f"%rectangle)
 
 ''' 
-Erro (?)
+Erro (variáveis sem lista)
 A = float(input())
 B = float(input())
 C = float(input())
@@ -58,12 +58,18 @@ print('1013 - O Maior')
 print('1014 - Consumo')
 # Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
 
-
+X = int(input())
+Y = float(input())
+cons = X / Y
+print(f'{cons:.3f}km/l')
 # ----------------------------------------------------------------------------------------------------------------
 
 print('1015 - Distância Entre Dois Pontos')
 # Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula: 
 # Distancia = raiz(x2-x1)² + (y2-y1)²
 
-
+x1, y1 = map(float, input().split())
+x2, y2 = map(float, input().split())
+distancia = (((x2 - x1)**2) + ((y2 - y1)**2))**0.5
+print(f'{distancia:.4f}')
 # ----------------------------------------------------------------------------------------------------------------
