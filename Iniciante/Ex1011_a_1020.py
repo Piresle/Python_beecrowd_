@@ -7,7 +7,6 @@ pi = 3.14159
 vol = (4/3.0) * pi * (R)**3
 print(f'VOLUME = {vol:.3f}')
 # ----------------------------------------------------------------------------------------------------------------
-
 print('-'*30)
 print('1012 - Área')
 # Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
@@ -48,7 +47,6 @@ print(f'RETANGULO: {aret:.3f}')
 '''
 
 # ----------------------------------------------------------------------------------------------------------------
-
 print('-'*30)
 print('1013 - O Maior')
 # Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula: MaiorAB = (a+b+abs(a-b)) / 2
@@ -76,8 +74,9 @@ x1, y1 = map(float, input().split())
 x2, y2 = map(float, input().split())
 distancia = (((x2 - x1)**2) + ((y2 - y1)**2))**0.5
 print(f'{distancia:.4f}')
-# ----------------------------------------------------------------------------------------------------------------
 
+
+# ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
 print('1016 - Distância')
 # Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade constante de 60 Km/h e o carro Y sai com velocidade constante de 90 Km/h.
@@ -86,28 +85,24 @@ print('1016 - Distância')
 
 
 # ----------------------------------------------------------------------------------------------------------------
-
 print('-'*30)
 print('1017 - Gasto de Combustível')
 # Joaozinho quer calcular e mostrar a quantidade de litros de combustível gastos em uma viagem, ao utilizar um automóvel que faz 12 KM/L. Para isso, ele gostaria que você o auxiliasse através de um simples programa. Para efetuar o cálculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade média durante a mesma (em km/h). Assim, pode-se obter distância percorrida e, em seguida, calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais após o ponto.
 
 
 # ----------------------------------------------------------------------------------------------------------------
-
 print('-'*30)
 print('1018 - Cédulas')
 # Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a relação de notas necessárias.
 
 
 # ----------------------------------------------------------------------------------------------------------------
-
 print('-'*30)
 print('1019 - Conversão de Tempo')
 # Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos.
 
 
 # ----------------------------------------------------------------------------------------------------------------
-
 print('-'*30)
 print('1020 - Idade em Dias')
 # Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a em anos, meses e dias
