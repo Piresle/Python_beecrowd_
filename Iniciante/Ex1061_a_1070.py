@@ -1,79 +1,61 @@
 print('-'*30)
-print('1041 - ')
+print('1061 - ')
 # 
 
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1042 - Sort Simples')
-## Leia 3 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência como foram lidos. 1042
-
-
-# ERRO
-'''
-n1 = int(input())
-n2 = int(input())
-n3 = int(input())
-if (n1 < n2) and (n1 < n3):
-    if (n2 < n3):
-        print(n1, n2, n3)
-elif (n2 < n1) and (n2 < n3):
-    if (n1 < n3):
-        print(n2, n1, n3)
-    elif (n3 < n1):
-        print(n2, n3, n1)
-elif (n3 < n1) and (n3 < n2):
-    if (n1 < n2):
-        print(n3, n1, n2)
-    elif (n2 < n1):
-        print(n3, n2, n1)
-'''
-
-# ----------------------------------------------------------------------------------------------------------------
-print('-'*30)
-print('1043 - ')
+print('1062 - ')
 #
 
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1044 - ')
+print('1063 - ')
 #
 
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1045 - ')
+print('1064 - Positivos e Média')
+# Leia 6 valores. Em seguida, mostre quantos destes valores digitados foram positivos. Na próxima linha, deve-se mostrar a média de todos os valores positivos digitados, com um dígito após o ponto decimal.
+# A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes números será positivo.
+# O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
+
+
+# ----------------------------------------------------------------------------------------------------------------
+print('-'*30)
+print('1065 - ')
 #
 
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1046 - ')
+print('1066 - ')
 #
 
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1047 - ')
+print('1067 - ')
 # 
 
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1048 - ')
+print('1068 - ')
 # 
 
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1049 - ')
+print('1069 - ')
 #
 
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1050 - ')
+print('1070 - ')
 #
 
 
