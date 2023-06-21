@@ -22,6 +22,16 @@ print('1064 - Positivos e Média')
 # A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes números será positivo.
 # O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
 
+pos = 0
+soma = 0
+for i in range(6):
+    x = float(input())
+    if (x > 0):
+        pos+=1
+        soma+=x
+media = soma/pos
+print(f'{pos} valores positivos')
+print(f'{media:.1f}')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
