@@ -33,22 +33,33 @@ print('1036 - Fórmula de Bhaskara')
 # Leia 3 valores de ponto flutuante (A, B e C) e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo.
 # Se não houver possibilidade de calcular as raízes, apresente a mensagem "Impossivel calcular". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo. Imprima sempre o final de linha após cada mensagem.
 
+ent = input().split()
+A = float(ent[0])
+B = float(ent[1])
+C = float(ent[2])
+delta = (B**2) - (4*A*C)
+if (A == 0) or (delta < 0):
+    print("Impossivel calcular")
+else:
+    X1 = (-B + (delta**(1/2))) / (2*A)
+    X2 = (-B - (delta**(1/2))) / (2*A)
+    print(f'R1 = {X1:.5f}')
+    print(f'R2 = {X2:.5f}')
 
 # ERRO
 '''
 from math import sqrt 
 
-A = float(input())
-B = float(input())
-C = float(input())
+ent = input().split()
+A = float(ent[0])
+B = float(ent[1])
+C = float(ent[2])
 delta = (B**2) - (4*A*C)
-if A == 0:
-    print("Impossível calcular")
-elif delta < 0:
+if (A == 0) or (delta < 0):
     print("Impossível calcular")
 else:
-    R1 = (-B + (sqrt(delta))) / (2*A)
-    R2 = (-B - (sqrt(delta))) / (2*A)
+    X1 = (-B + (sqrt(delta))) / (2*A)
+    X2 = (-B - (sqrt(delta))) / (2*A)
     print(f'R1 = {R1:.5f}')
     print(f'R2 = {R2:.5f}')
 '''
@@ -78,6 +89,7 @@ print('1040 - Média 3')
 # No caso do aluno estar em exame, leia um valor correspondente à nota do exame obtida pelo aluno. Imprima então a mensagem "Nota do exame: " acompanhada pela nota digitada. Recalcule a média (some a pontuação do exame com a média anteriormente calculada e divida por 2). e imprima a mensagem "Aluno aprovado." (caso a média final seja 5.0 ou mais ) ou "Aluno reprovado.", (caso a média tenha ficado 4.9 ou menos). Para estes dois casos (aprovado ou reprovado após ter pego exame) apresente na última linha uma mensagem "Media final: " seguido da média final para esse aluno. Todas as respostas devem ser apresentadas com uma casa decimal. 
 
 
+
 # ERRO
 '''
 N1 = float(input())
@@ -101,5 +113,4 @@ else:
         print("Aluno reprovado.")
     print(f'Media final: {mf:.1f}')
 '''
-
 # ----------------------------------------------------------------------------------------------------------------
