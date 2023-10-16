@@ -35,9 +35,15 @@ print(f'{media:.1f}')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1065 - ')
-#
+print('1065 - Pares entre Cinco Números')
+# Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
 
+par = 0
+for i in range(5):
+    n = int(input())
+    if (n % 2 == 0):
+        par += 1 
+print(f'{par} valores pares')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
