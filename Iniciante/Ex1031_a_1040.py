@@ -23,7 +23,7 @@ print('1034 - ')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1035 - ')
+print('1035 - Teste de Seleção 1')
 # Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem "Valores aceitos", senão escrever "Valores nao aceitos".
 entrada = input().split()
 A = int(entrada[0])
@@ -74,9 +74,23 @@ else:
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1037 - ')
-# 
+print('1037 - Intervalo')
+# Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos seguintes intervalos ([0,25], (25,50], (50,75], (75,100]) este valor se encontra. Obviamente se o valor não estiver em nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.
+""" O símbolo ( representa "maior que". Por exemplo:
+[0,25]  indica valores entre 0 e 25.0000, inclusive eles.
+(25,50] indica valores maiores que 25 Ex: 25.00001 até o valor 50.0000000 """
 
+n = float(input())
+if (0 <= n <= 25):
+    print('Intervalo [0,25]')
+elif (25 < n <= 50):
+    print('Intervalo (25,50]')
+elif (50 < n <= 75):
+    print('intervalo (50,75]')
+elif (75 < n <= 100):
+    print('Intervalo (75,100]')
+else:
+    print('Fora de intervalo')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
