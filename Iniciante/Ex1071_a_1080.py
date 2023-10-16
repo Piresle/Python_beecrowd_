@@ -6,8 +6,22 @@ print('1071 - ')
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
 print('1072 - Intervalo 2')
-# 
+# Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
+# Mostre quantos destes valores X estão dentro do intervalo [10,20] e quantos estão fora do intervalo, mostrando essas informações.
 
+N = int(input())
+inx = 0
+outx = 0
+
+for i in range(N):
+    X = int(input())
+    if (20 >= X >= 10):
+        inx += 1
+    else: 
+        outx += 1
+
+print(f'{inx} in')
+print(f'{outx} out')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
