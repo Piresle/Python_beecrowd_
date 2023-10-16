@@ -57,9 +57,34 @@ else:
 #  um de seus lados deve ser maior que o valor absoluto (módulo) da diferença dos outros dois lados e menor que a soma dos outros dois lados.
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1044 - ')
-#
+print('1044 - Múltiplos')
+# Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si.
 
+x = input().split()
+a, b = x
+a = int(a)
+b = int(b)
+
+if a > b:
+    if a % b == 0:
+        print('Sao Multiplos')
+    else:
+        print('Nao sao Multiplos')
+if a < b:
+    if b % a == 0:
+        print('Sao Multiplos')
+    else:
+        print('Nao sao Multiplos')
+if a == b:
+    print('Sao Multiplos')
+
+""" [ERRO]
+A, B = map(int, input().split())
+if ((B % A == 0) or (B % A == 0)):
+    print('Sao Multiplos')
+else:
+    print('Nao sao Multiplos')
+"""
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
