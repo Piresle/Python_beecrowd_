@@ -41,9 +41,29 @@ print('1065 - ')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1066 - ')
-#
+print('1066 - Pares, Ímpares, Positivos e Negativos')
+# Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
 
+par = 0 
+imp = 0
+pos = 0 
+neg = 0
+for i in range(5):
+    n = int(input())
+    if (n % 2 == 0):
+        par += 1
+    elif (n % 2 != 0):
+        imp += 1
+    
+    if (n > 0):
+        pos += 1
+    elif (n < 0):
+        neg += 1
+
+print(f'{par} valor(es) par(es)')
+print(f'{imp} valor(es) impar(es)')
+print(f'{pos} valor(es) positivo(s)')
+print(f'{neg} valor(es) negativo(s)')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
