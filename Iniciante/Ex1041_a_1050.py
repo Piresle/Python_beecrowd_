@@ -46,8 +46,15 @@ print('1043 - Triângulo')
 # Em caso negativo, calcule a área do trapézio que tem A e B como base e C como altura, mostrando a mensagem
 # Area = XX.X
 
+A, B, C = map (float, input().split())
+perimetro = A + B + C 
+area = (A + B) * C/2 
+if (A < (B + C)) and (B < (A + C)) and (C < (A + B)):
+    print(f'Perimetro = {perimetro:.1f}')
+else: 
+    print(f'Area = {area:.1f}')
 
-
+#  um de seus lados deve ser maior que o valor absoluto (módulo) da diferença dos outros dois lados e menor que a soma dos outros dois lados.
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
 print('1044 - ')
