@@ -1,3 +1,4 @@
+print('-'*30)
 print('1011 - Esfera')
 # Faça um programa que calcule e mostre o volume de uma esfera sendo fornecido o valor de seu raio (R). A fórmula para calcular o volume é: (4/3) * pi * R3. Considere (atribua) para pi o valor 3.14159.
 # Dica: Ao utilizar a fórmula, procure usar (4/3.0) ou (4.0/3), pois algumas linguagens (dentre elas o C++), assumem que o resultado da divisão entre dois inteiros é outro inteiro.
@@ -63,7 +64,6 @@ maiorC = int(maiorC)
 print(f'{maiorC} eh o maior')
 
 # ----------------------------------------------------------------------------------------------------------------
-
 print('-'*30)
 print('1014 - Consumo')
 # Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
@@ -72,8 +72,8 @@ X = int(input())
 Y = float(input())
 cons = X / Y
 print(f'{cons:.3f}km/l')
-# ----------------------------------------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
 print('1015 - Distância Entre Dois Pontos')
 # Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula: 
