@@ -63,9 +63,41 @@ print('1044 - ')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1045 - ')
-#
+print('1045 - Tipos de Triângulos')
+# Leia 3 valores de ponto flutuante A, B e C e ordene-os em ordem decrescente, de modo que o lado A representa o maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos seguintes casos, sempre escrevendo uma mensagem adequada:
+""" se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO
+    se A2 = B2 + C2, apresente a mensagem: TRIANGULO RETANGULO
+    se A2 > B2 + C2, apresente a mensagem: TRIANGULO OBTUSANGULO
+    se A2 < B2 + C2, apresente a mensagem: TRIANGULO ACUTANGULO
+    se os três lados forem iguais, apresente a mensagem: TRIANGULO EQUILATERO
+    se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES """
 
+X, Y, Z = map (float, input().split())
+if (X >= Y) and (X >= Z):
+    A = X
+    B = Y
+    C = Z
+if (Y >= X) and (Y >= Z):
+    A = Y
+    B = X
+    C = Z
+if (Z >= X) and (Z >= Y):
+    A = Z
+    B = X
+    C = Y
+
+if (A >= (B + C)):
+    print('NAO FORMA TRIANGULO')
+elif ((A*A) == ((B*B) + (C*C))):
+    print('TRIANGULO RETANGULO')
+elif ((A*A) > ((B*B) + (C*C))):
+    print('TRIANGULO OBTUSANGULO')
+elif ((A*A) < ((B*B) + (C*C))):
+    print('TRIANGULO ACUTANGULO')   
+if (A == B and B == C):
+    print('TRIANGULO EQUILATERO')
+elif ((A == B) or (B == C)):
+    print('TRIANGULO ISOSCELES')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
