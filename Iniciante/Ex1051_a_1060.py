@@ -84,8 +84,16 @@ for i in range(2, 101):
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
 print('1060 - ')
-#
+# Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
 
+val = 0
+for i in range(6):
+    n = float(input())
+    if n == 0:
+        val = 0
+    elif n > 0:
+        val += 1
+print(f'{val} valores positivos')
 
 # ----------------------------------------------------------------------------------------------------------------
 
