@@ -119,6 +119,12 @@ print('-'*30)
 print('1019 - Conversão de Tempo')
 # Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos.
 
+N = int(input())
+horas = N // (60*60)
+N = N % (60*60)
+minutos = N // 60
+N = N % 60
+print(f'{horas}:{minutos}:{N}')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)

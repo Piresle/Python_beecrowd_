@@ -12,11 +12,6 @@ Ex1091_a_1099 - 91, 92, 93, 94, 96, 97, 98, 99
 """
 # ----------------------------------------------------------------------------------------------------------------
 
-# Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos. 1019
-
-#N = int(input())
-
-
 
 
 # Leia um valor inteiro N. Apresente o quadrado de cada um dos valores pares, de 1 até N, inclusive N, se for o caso. 1073
@@ -26,14 +21,7 @@ for i in range(N):
     if N % 2 == 0:
         print('')"""
 
-# Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo. 1095
-"""
-Exemplo de Saída
-I=1 J=60
-I=4 J=55
-I=7 J=50
-...
-I=? J=0"""
+
 
 
 
