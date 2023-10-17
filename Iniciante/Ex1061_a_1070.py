@@ -27,9 +27,9 @@ soma = 0
 for i in range(6):
     x = float(input())
     if (x > 0):
-        pos+=1
-        soma+=x
-media = soma/pos
+        pos += 1
+        soma += x
+media = soma / pos
 print(f'{pos} valores positivos')
 print(f'{media:.1f}')
 
@@ -60,12 +60,10 @@ for i in range(5):
         par += 1
     elif (n % 2 != 0):
         imp += 1
-    
     if (n > 0):
         pos += 1
     elif (n < 0):
         neg += 1
-
 print(f'{par} valor(es) par(es)')
 print(f'{imp} valor(es) impar(es)')
 print(f'{pos} valor(es) positivo(s)')

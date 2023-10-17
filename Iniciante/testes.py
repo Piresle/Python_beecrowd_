@@ -13,25 +13,8 @@ Ex1091_a_1099 - 91, 92, 93, 94, 96, 97, 98, 99
 # ----------------------------------------------------------------------------------------------------------------
 
 
-
-# Leia um valor inteiro N. Apresente o quadrado de cada um dos valores pares, de 1 até N, inclusive N, se for o caso. 1073
-"""
-N = int(input())
-for i in range(N):
-    if N % 2 == 0:
-        print('')"""
-
-
-
-
-
 # Leia 1 valor inteiro N, que representa o número de casos de teste que vem a seguir. Cada caso de teste consiste de 3 valores reais, cada um deles com uma casa decimal. Apresente a média ponderada para cada um destes conjuntos de 3 valores, sendo que o primeiro valor tem peso 2, o segundo valor tem peso 3 e o terceiro valor tem peso 5. 1079
 
 
-
-
-
-# Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a em anos, meses e dias
-# Obs.: apenas para facilitar o cálculo, considere todo ano com 365 dias e todo mês com 30 dias. Nos casos de teste nunca haverá uma situação que permite 12 meses e alguns dias, como 360, 363 ou 364. Este é apenas um exercício com objetivo de testar raciocínio matemático simples. 1020
 
 
