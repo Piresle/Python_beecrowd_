@@ -12,22 +12,24 @@ print('1072 - Intervalo 2')
 N = int(input())
 inx = 0
 outx = 0
-
 for i in range(N):
     X = int(input())
     if (20 >= X >= 10):
         inx += 1
     else: 
         outx += 1
-
 print(f'{inx} in')
 print(f'{outx} out')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1073 - ')
-# 
+print('1073 - Quadrado de Pares')
+# Leia um valor inteiro N. Apresente o quadrado de cada um dos valores pares, de 1 até N, inclusive N, se for o caso.
 
+n = int(input())
+x = 2
+for i in range(2 , n+1 , 2):
+    print(f'{i}^2 = {i**2}')
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
@@ -65,8 +67,8 @@ if 2 < N < 1000:
 
 # ----------------------------------------------------------------------------------------------------------------
 print('-'*30)
-print('1079 - ')
-# 
+print('1079 - Médias Ponderadas')
+# Leia 1 valor inteiro N, que representa o número de casos de teste que vem a seguir. Cada caso de teste consiste de 3 valores reais, cada um deles com uma casa decimal. Apresente a média ponderada para cada um destes conjuntos de 3 valores, sendo que o primeiro valor tem peso 2, o segundo valor tem peso 3 e o terceiro valor tem peso 5.
 
 
 # ----------------------------------------------------------------------------------------------------------------
